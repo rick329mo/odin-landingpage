@@ -3,16 +3,26 @@
 .header {
     background-color: #1f2937;
     display: flex;
+    width:inherit;
+    justify-content: end;
+    height: 10rem;
 }
 
 .headerlogo {
-    font-size: 24px;
+     font-size: 24px;
      color: #f9faf8;
+     margin: 10px 50px;
+     margin-right: auto;
+    
+
 }
 
 .headerlink {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 10px;
+
+    
 }
 
 /* this section is for the hero div */
@@ -51,6 +61,7 @@
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    
 }
 
  /* this section is for the inspiration div */
