@@ -30,6 +30,7 @@
 .hero {
     background-color: #1f2937;
     display: flex;
+    flex-wrap: wrap;
     padding: 50px;
 }
 
@@ -55,13 +56,27 @@
 
 .info {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .random {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: auto;
+    margin-right: 200px;
+    margin-left: 200px;
+   
     
+}
+
+.illustrations {
+    border: #3882f6 solid 3px;
+    height: 60px;
+    width: 60px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
 }
 
  /* this section is for the inspiration div */
@@ -69,6 +84,7 @@
  .inspiration {
     background-color: #e5e7eb;
     display: flex;
+    flex-wrap: wrap;
  }
 
  .quote {
@@ -81,17 +97,25 @@
      font-weight: 900;
      font-size: 24px;
      color: #1f2937;
+     margin: auto;
  }
 
  /* this section is for the action div */
 
  .action {
      display: flex;
+     justify-content: center;
+     height: 200px;
  }
 
  .call-to-action {
      background-color: #3882f6;
      color: #e5e7eb;
+     width: 75%;
+     text-align: center;
+     height: 150px;
+     margin-top: 25px;
+     border-radius: 8px;
  }
 
  .signup2 {
@@ -106,4 +130,5 @@
      background-color: #1f2937;
      color: #e5e7eb;
      display: flex;
+     justify-content: center;
  }
