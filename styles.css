@@ -1,6 +1,4 @@
-body {
-    
-}
+/* this section is for the hero div */
 
 .hero {
     background-color: #1f2937;
@@ -32,5 +30,56 @@ body {
 .signup {
    background-color: #3882f6;
     border-radius: 8px;
-
 }
+
+/* this section is for the info div */
+
+.info {
+    display: flex;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+ /* this section is for the inspiration div */
+
+ .inspiration {
+    background-color: #e5e7eb;
+    display: flex;
+ }
+
+ .quote {
+     font-size: 36px;
+     font-style: italic;
+     color: #1f2937;
+ }
+
+ .credit {
+     font-weight: 900;
+     font-size: 24px;
+     color: #1f2937;
+ }
+
+ /* this section is for the action div */
+
+ .call-to-action {
+     background-color: #3882f6;
+     color: #e5e7eb;
+     display: flex;
+ }
+
+ .signup2 {
+     background-color: #3882f6;
+     border: #e5e7eb solid 1px;
+     border-radius: 8px;
+ }
+
+ /* this section is for the footer div */
+
+ footer {
+     background-color: #1f2937;
+     color: #e5e7eb;
+ }
