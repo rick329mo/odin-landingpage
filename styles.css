@@ -1,9 +1,8 @@
-/* this section is for the hero div */
+/* this section is for the header div */
 
-.hero {
+.header {
     background-color: #1f2937;
     display: flex;
-
 }
 
 .headerlogo {
@@ -11,15 +10,23 @@
      color: #f9faf8;
 }
 
+.headerlink {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* this section is for the hero div */
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px;
+}
+
 .title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-}
-
-.headerlink {
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .subtext {
@@ -30,6 +37,8 @@
 .signup {
    background-color: #3882f6;
     border-radius: 8px;
+    width: 100px;
+    height: 30px;
 }
 
 /* this section is for the info div */
@@ -65,10 +74,13 @@
 
  /* this section is for the action div */
 
+ .action {
+     display: flex;
+ }
+
  .call-to-action {
      background-color: #3882f6;
      color: #e5e7eb;
-     display: flex;
  }
 
  .signup2 {
@@ -82,4 +94,5 @@
  footer {
      background-color: #1f2937;
      color: #e5e7eb;
+     display: flex;
  }
